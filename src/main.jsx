@@ -9,3 +9,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
+
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+module.exports = withMT({
+  content: [],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+});

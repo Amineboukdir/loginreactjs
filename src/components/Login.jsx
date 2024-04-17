@@ -1,9 +1,14 @@
 import React, { useEffect, useState } from "react";
-import Image from "../assets/aia.png";
+import Image from "../assets/redhe.png";
 import Logo from "../assets/hps.png";
 import GoogleSvg from "../assets/icons8-google.svg";
 import { FaEye } from "react-icons/fa6";
 import { FaEyeSlash } from "react-icons/fa6";
+import gol from "../assets/gog.png";
+
+
+
+
 
 
 
@@ -13,29 +18,30 @@ const Login = () => {
 
   return (
     <div className="login-main">
+    <img src={gol} alt="Logo" class="gol"/>
+      <div className="login-left">
      
 
-      <div className="login-left">
+
+
+      <div className="line"></div>
+      <div className="text-container">
+      <span className="feel-good-text">Feel good <br/> about <br /> Payments</span>
+      <p className="additional-text"><strong>HPS:</strong> Global leaders in innovative payment solutions  <br/> with PowerCARD, trusted worldwide.</p>
+      
+        </div>
         <img src={Image} alt="" />
         
-        <ul class="nav flex-column flex-sm-row">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Disabled</a>
-  </li>
-</ul>
+       
+        <a href="https://www.hps-worldwide.com/about-hps" target="_blank" rel="noopener noreferrer">
+    <button   className="more-about-button">More about HPS</button>
+  </a>
+        
 
 
 
       </div>
+      
       <div className="login-right">
         <div className="login-right-container">
           <div className="login-logo">

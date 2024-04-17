@@ -24,3 +24,21 @@
     }
 
 }
+
+
+@media screen and (max-width: 1700px) {
+    .feel-good-text,
+    .additional-text,
+    .more-about-button {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 1700px) {
+    .login-left img {
+      width: 90%;
+      margin-left: 10%;
+    }
+
+  }
+  
